@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OctaSpace Block Countdown</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video autoplay muted loop id="background-video">
+        <source src="https://cdn.pixabay.com/video/2022/11/27/140729-775596110_large.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <!-- New HTML Structure -->
+    <div class="overlay"></div>
+    <div class="all">
+        <div class="header">
+            <div class="navbar">
+                <input type="checkbox" id="check">
+                <a href="#"><h1>Octa<span>.</span>Space era <span>countdown.</span></h1></a>
+                <div class="menu-btn">
+                    <label for="check">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                </div>
+                <div class="menu-item">
+                    <a href="https://octa.space/">Website</a>
+                    <a href="https://docs.octa.space/monetary-policy">Monetary policy</a>
+                    <a href="https://scan.octa.space/">Block Explorer</a>
+                </div>
+            </div>
+            <img src="https://raw.githubusercontent.com/octaspace/logos/main/logo-256x256.png" alt="" width="100">
+            <h2>Dnepr begins in:</h2>
+        </div>
+        <div class="content">
+            <!-- Countdown Timer Placeholder -->
+            <div id="countdowntimer">
+                <span class="count"></span>
+            </div>
+            <div id="current-block">
+                <h2>Current Block: <span id="block-number">Loading...</span></h2>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- Include Web3 library and your app.js -->
+    <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
