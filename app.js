@@ -13,8 +13,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         const blockNumberDisplay = document.getElementById('block-number');
         blockNumberDisplay.textContent = currentBlock;
 
-        const blockTimeDisplay = document.getElementById('block-time');
-        blockTimeDisplay.textContent = `${blockTime} seconds`;
+        //const blockTimeDisplay = document.getElementById('block-time');
+        //blockTimeDisplay.textContent = `${blockTime} seconds`;
     }
 
     // Update the countdown clock, current block number, and block time every second
