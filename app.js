@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', async () => {
     const rpcEndpoint = 'https://rpc.octa.space'; // Ethereum RPC endpoint
-    const targetBlockNumber = BigInt('8000000'); // Target block number (change as needed)
+    const targetBlockNumber = BigInt('10000000'); // Target block number (change as needed)
 
     // Create a Web3 instance with the specified RPC endpoint
     const web3 = new Web3(rpcEndpoint);
